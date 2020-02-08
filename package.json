@@ -1,0 +1,25 @@
+{
+  "name": "modoki-ui",
+  "version": "0.1.0",
+  "description": "A GUI frontend of Modoki PaaS.",
+  "main": "index.js",
+  "repository": "https://github.com/modoki-paas/modoki-ui.git",
+  "author": "Hikaru Terazono (3c1u) <3c1u@vulpesgames.tokyo>",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "@vue/component-compiler-utils": "^3.1.1",
+    "parcel-bundler": "^1.12.4",
+    "typescript": "^3.7.5",
+    "vue": "^2.6.11",
+    "vue-property-decorator": "^8.4.0",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "scripts": {
+    "serve": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "dependencies": {
+    "vue-hot-reload-api": "^2.3.4"
+  }
+}
